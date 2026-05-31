@@ -4,7 +4,6 @@
   padding: 0 40px 60px;
 }
 
-/* ===== WELCOME BANNER ===== */
 .welcome-banner {
   background-color: #1e40af;
   border-radius: 15px;
@@ -50,14 +49,12 @@
   margin-top: 6px;
 }
 
-/* ===== SECTION TITLE ===== */
 .section-title {
   font-size: 20px;
   font-weight: bold;
   margin: 36px 0 14px;
 }
 
-/* ===== CONTINUE LEARNING ===== */
 .courses-in-progress {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -162,7 +159,6 @@
   color: #1e40af;
 }
 
-/* ===== COURSES GRID ===== */
 .courses-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
