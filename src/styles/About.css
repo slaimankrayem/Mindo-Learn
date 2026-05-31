@@ -1,0 +1,54 @@
+.about {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 40px;
+  text-align: center;
+}
+
+.about h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1e40af;
+  margin-bottom: 16px;
+}
+
+.about .underline {
+  width: 60px;
+  height: 4px;
+  background-color: #1e40af;
+  margin: 0 auto 32px;
+  border-radius: 2px;
+}
+
+.about-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.about-card {
+  background: white;
+  border: 1px solid #d1d5db;
+  border-radius: 14px;
+  padding: 28px 20px;
+  text-align: center;
+}
+
+.about-card .icon {
+  font-size: 40px;
+  margin-bottom: 14px;
+}
+
+.about-card h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #1a1a2e;
+}
+
+.about-card p {
+  font-size: 13px;
+  color: gray;
+  line-height: 1.6;
+}
